@@ -3,12 +3,16 @@ import '../../index.css';
 import protocol from '../../icons/protocol.png';
 import oportunities from '../../icons/piece.png';
 import bios from '../../icons/person.png';
+import ProfileMenuVerticalHeader from "../../pieces/profileMenuVerticalHeader"
 
 class ProfileHeaderTop extends Component {
 
   render() {
     return (
       <div class="flex-container">
+      <div class="menuItemLarger" >
+        <ProfileMenuVerticalHeader />
+      </div>
         <div class="menuItemLarger" >
           Torre
         </div>
